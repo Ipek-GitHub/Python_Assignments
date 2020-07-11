@@ -1,0 +1,15 @@
+my_name = "İpek"
+
+your_name = input("Enter your name: ")
+
+
+
+if my_name == your_name:
+
+    print("Hello {}! The password is: clarusway".format(my_name))
+
+    
+
+else:
+
+    print("Hello {}! See you later.".format(your_name))
