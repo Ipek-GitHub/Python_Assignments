@@ -1,0 +1,12 @@
+prime_numbers = []
+a = 1
+b = int(input("Enter a number please : "))
+for i in range(a, b + 1):
+   if i > 1:
+       for ii in range(2, i):
+           if (i % ii) == 0:
+            break
+            print("Prime numbers between", a, "and", b, "are: ")
+       else:
+           prime_numbers.append(i)
+print(f"List of prime numbers are : {prime_numbers}")
