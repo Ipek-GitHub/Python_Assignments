@@ -1,0 +1,11 @@
+sentence = input("Enter a sentence please : ")
+dict = {}
+
+for i in sentence:
+    keys = dict.keys()
+    if i in keys:
+        dict[i] += 1 
+    else:
+        dict[i] = 1
+        
+print(dict)
